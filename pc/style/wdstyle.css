@@ -1,0 +1,227 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EFE5DC;
+}
+a:link {
+	font-weight: bold;
+	color: #0000FF;
+}
+a:visited {
+	font-weight: bold;
+	color: #0000FF;
+}
+a:hover {
+	font-weight: bold;
+	color: #FF0000;
+}
+.box {
+	padding: 0px;
+	width: 728px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #A4C7CB;
+}
+.top_f {
+	font-size: 12px;
+	color: #F5EFE3;
+	background-color: #3F668D;
+	margin: 0px;
+	padding: 3px;
+	width: 722px;
+}
+.m_bar {
+	background-color: #6D89B9;
+	padding: 10px;
+	text-align: right;
+	width: 708px;
+	clear: both;
+}
+a.m1:link {
+	font-size: 14px;
+	color: #45628A;
+	background-color: #EFE5DC;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6D89B9;
+	text-decoration: none;
+}
+a.m1:visited {
+	font-size: 14px;
+	color: #45628A;
+	background-color: #EFE5DC;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6D89B9;
+	text-decoration: none;
+	margin: 0px;
+}
+a.m1:hover {
+	font-size: 14px;
+	color: #3C638A;
+	background-color: #FFCC66;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6D89B9;
+	text-decoration: none;
+	margin: 0px;
+}
+.top_img {
+	padding: 3px 0px 5px;
+	background-color: #003399;
+	margin: 0px;
+}
+.l_main {
+	margin: 0px;
+	padding: 0px;
+	width: 519px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #EFE5DC;
+	float: left;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+.r_main {
+	margin: 0px;
+	padding: 0px;
+	width: 208px;
+	float: right;
+	text-align: left;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: #3F668D;
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 20px;
+}
+h2 {
+	font-size: medium;
+	background-image: url(../img/h2_back.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 15px;
+	margin: 25px 7px 0px;
+	padding: 5px 5px 7px;
+	color: #3C547B;
+	letter-spacing: 3px;
+	background-position: bottom;
+}
+h3 {
+	font-size: 14px;
+	color: #FF9900;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+.l_f1 {
+	font-size: small;
+	line-height: 180%;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+.l_f2 {
+	font-size: small;
+	line-height: 180%;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	border: 1px solid #A4C7CB;
+}
+.l_f3 {
+	font-size: small;
+	line-height: 180%;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	border: 1px solid #A4C7CB;
+	background-color: #EFE5DC;
+}
+.l_f4 {
+	font-size: small;
+	line-height: 180%;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	border: 1px solid #5A969C;
+	background-color: #5A969C;
+	color: #FFFFFF;
+}
+h4 {
+	background-image: url(../img/h3_back.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	color: #3C547B;
+	padding-top: 5px;
+	text-align: left;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.r_f1 {
+	font-size: small;
+	line-height: 180%;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.r_f2 {
+	font-size: small;
+	line-height: 180%;
+	padding: 4px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: #FFFFFF;
+	background-color: #457378;
+}
+.footer {
+	font-size: 12px;
+	color: #EEE5D6;
+	background-color: #457378;
+	margin: 0px;
+	padding: 4px;
+	width: 720px;
+	clear: both;
+}
+a.copy:link {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+a.copy:visited {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+a.copy:hover {
+	font-weight: bold;
+	color: #FFCC66;
+}
+

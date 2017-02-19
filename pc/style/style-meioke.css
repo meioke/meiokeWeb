@@ -1,0 +1,489 @@
+body {
+          background: #160511 url(../img/background/gra.gif) repeat-x;
+;
+          color: #000000;
+}
+
+/********************************************************************
+
+
+　 　 　 　 |＼ 　 　 　 　 ／|
+　 　 　 　 |＼＼　 　 　 ／／|
+　　　　 　 : 　,>｀´~｀<　 ′
+  　　　 　 Ｖ　 　 _ﾉ 　 　Ｖ　　
+ 　　　　   i{　●　 　 ●　}i　　　
+　　　　   八　 　 ､_,_,    八　　　
+  　 　 　/　个 . ＿　 ＿. 个 ',　　　　　さぁ、ウェブマスターよ　　　　
+　　　　/＼`: ,゛{つ~ て_）’､ ＼　　　　　　　　　君の願いを教えるんだ！　　
+　　　 /＋ ＼ ゛"´　　　(´::)  ヽ
+　　／＋　　　~~~~~~~~｀､　　
+　〈＼ ＋　＋　＋　　＋　＋　　ヽ
+　　＼ ＼＿＿＿＿__＿＿＿＿＿＿_ヽ
+　　　 ｀､＿＿＿＿＿＿＿＿＿＿＿___〉
+
+
+
+********************************************************************/
+
+
+a:link { color: #0000EF; }   /*リンクの色。*/
+a:visited { color: #FF00FF; }  /*クリックした後の色。今ピンク*/
+a:hover { color: #FF0000; }  /*上にマウス乗せた時の色*/
+a:active { color: #FFB6C1; }  /*クリックしたときの色*/
+
+a {
+text-decoration: none; /*noneで下線を消す*/
+}
+
+img {
+border: 0;
+}
+
+/*募集状況のテーブル*/
+table.bosyu{
+    margin: 5px;
+    border: solid 1px #888888;
+    border-collapse:collapse;
+    width:580px;
+}
+
+table.bosyu td{
+    border: solid 1px #888888;
+    padding:6px;
+    font-size: 80% ;
+}
+
+table.bosyu th{
+    border: solid 1px #888888;
+    font-size: 80% ;
+    background-color: #98FB98;
+}
+
+table.bosyu tr,td{
+    border-top: solid 1px #888888;
+    border-right: solid 1px #888888;
+}
+
+
+/*インデックスの更新状況のやつ*/
+table.news{
+    border:0;
+    border-collapse:collapse;
+    width:580px;
+}
+
+table.news th,td{
+    padding:5px 0px;
+    border:0;
+    font-size: 80% ;
+    vertical-align: top;
+}
+
+table.news th{
+    width:15%;
+    font-weight: normal;
+}
+
+table.news td{
+    width:85%;
+}
+
+
+/*アルバムページにて使用*/
+table.album{
+    border:0;
+    border-collapse:collapse;
+    width:580px;
+}
+
+table.album td{
+    padding:5px 0px;
+    border:0;
+    font-size: 80% ;
+    vertical-align: top;
+}
+
+table.album td{
+    width:33%;
+}
+
+
+/*一番でっかい見出しのやつ(下線付き)*/
+h2.headline{
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    margin: 0px 40px 0px 30px;
+    padding: 20px 20px 5px 0px;
+    border-color: #000000;
+    color: #4B0082;
+    font-size: 130% ;
+}
+
+/*小見出し*/
+h3.strong{
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-size: 100% ;
+}
+
+/*色付けたいときに*/
+.color{
+    color: #4B0082;
+}
+
+/*石畑フォント*/
+.ishihata{
+    margin: 0;
+    padding: 0;
+    color: #4B0082;
+    font-size: 110%;
+    font-weight: bold;
+
+}
+
+
+/*右にあるやつ。下地が黒のやつのフォント等*/
+h4.side_menu{
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    margin: 0px 15px 0px 10px;/* 外側 */
+    padding: 20px 20px 5px 5px;/* 内側 */
+    border-color: #8F44C6;
+    color: #8F44C6;
+    font-size: 90% ;
+}
+
+h5.top{/*右にあるやつの表題*/
+    margin: 0;
+    padding: 0;
+    font-size: 60% ;
+    font-weight: normal;
+    color: #ffffff;
+    text-align : center ;
+}
+
+h5.copyright{
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+    font-size: 60% ;
+    font-weight: normal;
+    color: #ffffff;
+    text-align : right;
+}
+
+hr {/*ほらいぞん(^ω^)。水平線。別にVIPPERじゃないです。角煮(ry*/
+    border: solid #000000;
+    border-width:1px 0 0 0;
+    width: 60%;
+    margin: 10px 0 10px 0;
+    text-align: left;
+}
+
+.side_sentence{/*右のやつ*/
+    padding: 0px 15px 10px 15px;
+    font-size: 80% ;
+}
+
+.side_link{
+    margin: 10px 5px;
+    font-size: 80% ;
+}
+
+.overview{
+    margin: 5px 40px 20px 40px;
+    padding:0;
+}
+
+.space{
+    margin: 10px 0px;
+}
+
+/* 演奏会情報の二重線の枠のプロパティ */
+.box_a {
+margin:0px 10px;
+padding:5px 5px;
+border-color: #888888;
+border-style: double;
+}
+
+/*このボックスの中にテキストを入れてくと綺麗になるはず*/
+.box_clear{
+margin:0 0 10px 0;
+}
+
+p{
+    padding: 5px 0 20px 0;
+    margin: 0;
+    font-size: 80% ;
+    line-height: 170%;
+}
+
+/* サイトマップのリスト */
+.sitemap_li1 { margin:0; padding:0; } 
+.sitemap_li1 li{
+     font-size: 90%;
+     margin:30px 0 0 0;
+     list-style:none;
+     overflow: hidden;
+     font-weight: bold;
+}
+.sitemap_li2 { margin:0; padding:0; } 
+.sitemap_li2 li{
+     font-size: 80%;
+     margin:5px 0;
+     list-style:none;
+     /* overflow: hidden; */
+     font-weight: normal;
+}
+
+/* 右側の黒地のやつ */
+#side_about { margin:0 25px; padding:0; } 
+
+/* 右側の黒地のやつのリスト */
+#side_about li { 
+     list-style:none;
+     overflow: hidden;
+}   
+
+/* 右側の黒地のやつのリストその２-メンバーページで使用 */
+ .list2 , .list2 ul { margin: 0; padding:0  15px;}  
+ .list2 li {  
+     font-size: 80%;
+     list-style:none;  
+ }
+
+/* リスト-新入生用のページにあるやつ */
+ .list , .list ul { margin:0 25px; padding:0;  }  
+ .list li {  
+     font-size: 80%;
+  /* font-weight: bold; */
+     list-style:none;  
+     padding-left:25px;   
+     background:url('../img/icon/t_12.gif') left top no-repeat;  
+     line-height:26px;   
+ }  
+
+/* リスト-メンバーページにあるやつ */
+ .list_me , .list_me ul { margin:0 25px; padding:0;  }  
+ .list_me li {  
+     font-size: 80%;
+  /* font-weight: bold; */
+     list-style:none;  
+     padding-left:25px;  
+     padding-bottom:5px; 
+     background:url('../img/icon/8_1.gif') left top no-repeat;  
+     line-height:26px;   
+ }  
+
+/* なんか作ったけど使わんかったやつ */
+form{
+    padding: 10px 0px 30px 40px;
+}
+
+
+
+/* ------------------ページの大きさ-------------------------- */
+
+#base {  /*ベースのサイズ等*/
+          width:860px;
+          margin: 10px auto 50px 10px;
+}
+
+#top1 {  /* 一番上の明治大学交響楽団 */
+          width:860px;
+          background:#4B0082 ;
+          padding: 0;
+}
+
+#top2 {  /* ロゴがあるやつ */
+          width:860px;
+          height:100px;
+          background:#ffffff url(http://meioke.com/pc/img/top.jpg)  no-repeat right;
+}
+
+#menu { /* メニュー欄 */
+          width:860px;
+          height:25px;
+          background:#CECFCE;
+}
+
+#main { /*左と右に分かれているときに使うやつ(下地が黒)*/
+          width:860px;
+          background:#000000;
+}
+
+#main2 { /*左と右に分けてないやつ。下地が白になってます*/
+          width:860px;
+          background:#FFFFFF;
+          float: left;
+}
+
+#left_side {
+          width:660px;
+          background:#FFFFFF;
+          float: left;
+}
+
+#right_side {
+          width:200px;
+          background:#000000;
+          float: left;
+          color: #FFFFFF;
+}
+
+#clear { /* ダミー(入れないと色々崩れる) */
+          clear: both;
+}
+
+#bottom1 {
+          width:860px;
+          height:15px;
+/*          background:#4B0082; */
+}
+
+#bottom2 {
+          width:860px;
+          height:15px;
+          background:#4B0082;  
+/*          background:#8F44C6; */
+          clear: both;
+}
+#bottom2 a:link { color: #CECFCE; }   /*リンクの色。今灰色*/
+#bottom2 a:visited { color: #FF00FF; }  /*クリックした後の色。今ピンク*/
+#bottom2 a:hover { color: #FF0000; }  /*上にマウス乗せた時の色*/
+#bottom2 a:active { color: #FFB6C1; }  /*クリックしたときの色*/
+
+#sitemap_left {
+          width:290px;
+          background:#FFFFFF;
+          float: left;
+}
+
+#sitemap_right {
+          width:290px;
+          background:#FFFFFF;
+          float: left;
+}
+
+/* インデックスのチラシの画像があるところのやつ */
+.flier_left{
+          width:250px;
+          float: left;
+}
+
+.flier_right{
+          margin:0;
+          padding:0 10px;
+          width:310px;
+          float: left;
+}
+
+.flier_clear{
+          clear: both;
+}
+
+
+/* ---------------------------------------------------------- */
+/* ------------------その他---------------------------------- */
+
+/* メニューのプロパティ */
+
+ #gNavi { margin:0 25px; padding:0; } 
+ /* メニューバーの幅等（グローバルナビでググるといろいろ出てくる） */
+ #gNavi li { 
+     display:inline;
+     float:left;
+     list-style:none;/* リストの・丸をなくすのとブロックでなくインラインに設定*/
+     overflow: hidden;
+}   
+ /* #gNavi li a img{ border: none; } */  
+
+
+/* メニューのイメージ(画像置換) */
+
+/* トップ */
+#gNavi li a.logo_home {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("http://meioke.com/pc/img/icon/logo_top2.gif"); /* 画像ファイル名 */
+}
+
+/* 楽団紹介 */
+#gNavi li a.logo_about {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("http://meioke.com/pc/img/icon/logo_gakudannsyoukai.gif"); /* 画像ファイル名 */
+}
+
+/* 演奏会 */
+#gNavi li a.logo_enso {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("http://meioke.com/pc/img/icon/logo_enso2.gif"); /* 画像ファイル名 */
+}
+
+/* 団員募集 */
+#gNavi li a.logo_bosyu {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("../img/icon/logo_bosyu2.gif"); /* 画像ファイル名 */
+}
+
+/* リンク */
+#gNavi li a.logo_link {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("../img/icon/logo_link2_2.gif"); /* 画像ファイル名 */
+}
+
+/* 掲示板 */
+#gNavi li a.logo_bbs {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("../img/icon/logo_keijiban.gif"); /* 画像ファイル名 */
+}
+
+/* MAIL */
+#gNavi li a.logo_mail {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("../img/icon/logo_mail2.gif"); /* 画像ファイル名 */
+   border: none;
+}
+
+/* 御問い合せ */
+#gNavi li a.logo_contact {
+   display: block;
+   width: 100px; /* 画像1枚分の横幅 */
+   height: 25px; /* 画像1枚分の高さ */
+   text-indent: -1000px; /* 文字を見えなくする */
+   background-position: top left;
+   background-image: url("../img/icon/logo_contact2.gif"); /* 画像ファイル名 */
+   border: none;
+}
+
+/* マウスオーバーのプロパティ */
+#gNavi li a:hover {
+   background-position: top right; /* 背景画像の表示開始基準を右上に変更 */
+}
